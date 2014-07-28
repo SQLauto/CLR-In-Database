@@ -47,12 +47,12 @@ GO
 ```sql
 CREATE FUNCTION dbo.ReverseGeocode( @lat NVARCHAR(MAX), @lng NVARCHAR(MAX))
 RETURNS TABLE (XMLContent XML, 
-				FormattedAddress NVARCHAR(200), 
-				AddressLine  NVARCHAR(200),
-        AdminDistrict NVARCHAR(200), 
-				CountryRegion NVARCHAR(200), 
-				Locality NVARCHAR(200), 
-				PostalCode NVARCHAR(200))
+		FormattedAddress NVARCHAR(200), 
+		AddressLine  NVARCHAR(200),
+		AdminDistrict NVARCHAR(200), 
+		CountryRegion NVARCHAR(200), 
+		Locality NVARCHAR(200), 
+		PostalCode NVARCHAR(200))
 AS External name Geocoder.[ProSpatial.UserDefinedFunctions].ReverseGeocodeUDF;
 GO
 ```
