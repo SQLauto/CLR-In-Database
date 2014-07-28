@@ -61,16 +61,16 @@ GO
 ```sql
 CREATE FUNCTION dbo.ReadKMLToAddresses( @fileName NVARCHAR(MAX))
 RETURNS TABLE([Date] DATETIME,
-				Latitude NVARCHAR(10), 
-				Longitude NVARCHAR(10), 
-				Altitude NVARCHAR(10),
-				XMLContent XML,
-				FormattedAddress NVARCHAR(200),
-				AddressLine NVARCHAR(200), 
-				AdminDistrict NVARCHAR(200), 
-				CountryRegion NVARCHAR(200), 
-				Locality NVARCHAR(200), 
-				PostalCode NVARCHAR(200))
+		Latitude NVARCHAR(10), 
+		Longitude NVARCHAR(10), 
+		Altitude NVARCHAR(10),
+		XMLContent XML,
+		FormattedAddress NVARCHAR(200),
+		AddressLine NVARCHAR(200), 
+		AdminDistrict NVARCHAR(200), 
+		CountryRegion NVARCHAR(200), 
+		Locality NVARCHAR(200), 
+		PostalCode NVARCHAR(200))
 AS EXTERNAL name Geocoder.[ProSpatial.UserDefinedFunctions].ReadKMLToAddressesUDF;
 GO
 ```
