@@ -33,9 +33,9 @@ GO
 ```sql
 CREATE FUNCTION dbo.ReadKMLFile( @fileName NVARCHAR(MAX))
 RETURNS TABLE([Date] DATETIME,
-				Latitude NVARCHAR(10), 
-				Longitude NVARCHAR(10), 
-				Altitude NVARCHAR(10))
+		Latitude NVARCHAR(10), 
+		Longitude NVARCHAR(10), 
+		Altitude NVARCHAR(10))
 AS EXTERNAL name Geocoder.[ProSpatial.UserDefinedFunctions].ReadKMLFileUDF;
 GO
 ```
