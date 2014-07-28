@@ -1,0 +1,5 @@
+c:\Spatial\ProSpatialCh6.dll
+c:\Spatial\ProSpatialCh6.pdb
+c:\users\-zaferayan-\documents\visual studio 2012\Projects\ProSpatialCh6\ProSpatialCh6\obj\Debug\ProSpatialCh6.csprojResolveAssemblyReference.cache
+c:\users\-zaferayan-\documents\visual studio 2012\Projects\ProSpatialCh6\ProSpatialCh6\obj\Debug\ProSpatialCh6.dll
+c:\users\-zaferayan-\documents\visual studio 2012\Projects\ProSpatialCh6\ProSpatialCh6\obj\Debug\ProSpatialCh6.pdb
